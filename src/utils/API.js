@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const KEY = 'a4a947a3';
-const baseURL = 'http://www.omdbapi.com/?apikey=' + KEY;
+const baseURL = 'https://www.omdbapi.com/?apikey=' + KEY;
 
 const API = {
     getMovies: async title => {
